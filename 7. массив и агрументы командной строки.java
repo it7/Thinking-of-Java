@@ -1,0 +1,19 @@
+/**
+ * инициализация экземпляра"
+ *  System.out.println("");
+ */
+
+import java.lang.*;
+
+public class flo {
+    public static void main(String[] args) {
+        Other.main(new String[]{"fiddle", "de", "dum"});
+     }
+}
+
+class Other {
+    public static void main(String[] args) {
+        for(String s : args)
+            System.out.println(s + " ");
+    }
+}
